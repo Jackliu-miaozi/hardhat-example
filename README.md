@@ -10,7 +10,7 @@
 ```bash
 git clone https://github.com/Jackliu-miaozi/hardhat-example.git
 cd hardhat-example
-pnpm install
+npm install
 ```
 
 ### 配置环境变量
