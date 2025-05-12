@@ -446,84 +446,6 @@
         "IERC165"
       ]
     },
-    "/Users/jackliu/hardhat-example/contracts/Battle.sol": {
-      "lastModificationDate": 1747024731032,
-      "contentHash": "b804eb309b3d422f6b5f28e4f9297497",
-      "sourceName": "contracts/Battle.sol",
-      "solcConfig": {
-        "version": "0.8.28",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "parameters": "z"
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./NFTEmoji.sol",
-        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
-        "@openzeppelin/contracts/utils/ReentrancyGuard.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.28"
-      ],
-      "artifacts": [
-        "BattleSystem"
-      ]
-    },
-    "/Users/jackliu/hardhat-example/contracts/NFTEmoji.sol": {
-      "lastModificationDate": 1747024414343,
-      "contentHash": "6dd63fc5979a1c0e6a30ed9ac4326e9f",
-      "sourceName": "contracts/NFTEmoji.sol",
-      "solcConfig": {
-        "version": "0.8.28",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "parameters": "z"
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/token/ERC721/ERC721.sol",
-        "@openzeppelin/contracts/token/ERC721/extensions/ERC721Burnable.sol",
-        "@openzeppelin/contracts/access/Ownable.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.28"
-      ],
-      "artifacts": [
-        "NFTEmoji"
-      ]
-    },
     "/Users/jackliu/hardhat-example/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
       "lastModificationDate": 1746960908049,
       "contentHash": "d3c790edc9ccf808a17c5a6cd13614fd",
@@ -973,44 +895,6 @@
         "IERC721Receiver"
       ]
     },
-    "/Users/jackliu/hardhat-example/contracts/GT.sol": {
-      "lastModificationDate": 1747024483373,
-      "contentHash": "4181018bb255b316a9bf12ad64bfe3af",
-      "sourceName": "contracts/GT.sol",
-      "solcConfig": {
-        "version": "0.8.28",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "parameters": "z"
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/token/ERC20/ERC20.sol",
-        "@openzeppelin/contracts/access/Ownable.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.28"
-      ],
-      "artifacts": [
-        "GT"
-      ]
-    },
     "/Users/jackliu/hardhat-example/node_modules/@openzeppelin/contracts/utils/ReentrancyGuard.sol": {
       "lastModificationDate": 1746960908051,
       "contentHash": "190613e556d509d9e9a0ea43dc5d891d",
@@ -1047,7 +931,7 @@
       ]
     },
     "/Users/jackliu/good/hardhat-example/contracts/Battle.sol": {
-      "lastModificationDate": 1747028364945,
+      "lastModificationDate": 1747033933727,
       "contentHash": "2a9b1b9462a63b66bc0cc47e2236265e",
       "sourceName": "contracts/Battle.sol",
       "solcConfig": {
@@ -1086,7 +970,7 @@
       ]
     },
     "/Users/jackliu/good/hardhat-example/contracts/NFTEmoji.sol": {
-      "lastModificationDate": 1747028373230,
+      "lastModificationDate": 1747033938690,
       "contentHash": "acd447401ab0b522e9add263ca4a4a8d",
       "sourceName": "contracts/NFTEmoji.sol",
       "solcConfig": {
@@ -1977,7 +1861,7 @@
       ]
     },
     "/Users/jackliu/good/hardhat-example/contracts/MyToken.sol": {
-      "lastModificationDate": 1747028370649,
+      "lastModificationDate": 1747033938690,
       "contentHash": "7e9e8d45d5ee6804f2f1cb97a94448a8",
       "sourceName": "contracts/MyToken.sol",
       "solcConfig": {
@@ -2054,7 +1938,7 @@
       ]
     },
     "/Users/jackliu/good/hardhat-example/contracts/GT.sol": {
-      "lastModificationDate": 1747028367806,
+      "lastModificationDate": 1747033938690,
       "contentHash": "8d0ba87aabaa74bc3402be4c89d5b341",
       "sourceName": "contracts/GT.sol",
       "solcConfig": {

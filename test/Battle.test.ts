@@ -1,4 +1,4 @@
-import { ethers, network } from "hardhat";
+import { ethers } from "hardhat";
 import { expect } from "chai";
 import { HardhatEthersSigner } from "@nomicfoundation/hardhat-ethers/signers";
 import { NFTEmoji, GT, BattleSystem } from "../typechain-types"; // 确保已运行 npx hardhat compile
