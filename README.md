@@ -9,7 +9,7 @@ First, clone the repository and install dependencies:
 ```bash
 git clone https://github.com/Jackliu-miaozi/hardhat-example.git
 cd hardhat-example
-npm install
+pnpm install
 ```
 
 ### Configure Environment Variables
