@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 // 指定Solidity编译器版本为0.8.20或更高版本
-pragma solidity ^0.8.28;
+pragma solidity ^0.8.26;
 
 // 导入NFTEmoji合约
 import "./NFTEmoji.sol";

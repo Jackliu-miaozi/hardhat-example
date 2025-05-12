@@ -8,7 +8,7 @@ import '@parity/hardhat-polkadot';
 // 定义hardhat配置对象
 const config: HardhatUserConfig = {
     // 指定Solidity编译器版本
-    solidity: '0.8.28',
+    solidity: '0.8.26',
     // resolc编译器配置
     resolc: {
         // 设置编译器来源为npm
@@ -36,6 +36,10 @@ const config: HardhatUserConfig = {
                 adapterBinaryPath: './bin/eth-rpc',
                 // 启用开发模式
                 dev: true,
+            },
+            // 添加账户预分配资金
+            accounts: {
+                accountsBalance: "10000000000000000000000" // 10000 ETH
             },
         },
         // 本地节点网络配置
