@@ -11,6 +11,8 @@
   "description": "",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
-    "@parity/hardhat-polkadot": "^0.1.4"
+    "@parity/hardhat-polkadot": "^0.1.4",
+    "@types/node": "^22.15.17",
+    "typescript": "^5.8.3"
   }
 }
