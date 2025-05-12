@@ -1,11 +1,10 @@
-
 # NFTEmoji Battle Game Smart Contracts
 
-这是一个基于以太坊的 NFT 战斗游戏智能合约项目，包含 Emoji NFT、治理代币和战斗系统三个主要模块。
+This is a blockchain-based NFT battle game project built on Ethereum, consisting of three main modules: Emoji NFTs, Governance Token, and Battle System.
 
-## 环境准备
+## Environment Setup
 
-首先需要克隆仓库并安装依赖：
+First, clone the repository and install dependencies:
 
 ```bash
 git clone https://github.com/Jackliu-miaozi/hardhat-example.git
@@ -13,69 +12,82 @@ cd hardhat-example
 npm install
 ```
 
-### 配置环境变量
+### Configure Environment Variables
 
-项目需要配置私钥环境变量才能正常运行。请在项目根目录创建 `.env` 文件，并添加以下内容：
+The project requires private key configuration to run properly. Create a `.env` file in the project root directory and add the following:
 
 ```env
 WESTEND_HUB_PK=5fb92d6e98884f76de468fa3f6278f8807c48bebc13595d45af5bdc4da702133
 ```
 
-**注意：** 此私钥仅用于开发环境，请勿在生产环境使用。
+**Note:** This private key is for development only. Never use it in production environments.
 
-## 编译合约
+## Compile Contracts
 
-使用 Hardhat 编译智能合约：
+Compile smart contracts using Hardhat:
 
 ```bash
 npx hardhat compile
 ```
 
-## 启动本地开发网络
+## Start Local Development Network
 
 ```bash
 npx hardhat node
 ```
 
-这将启动一个本地以太坊节点，运行在 `http://localhost:8545`。
+This will start a local Ethereum node running at `http://localhost:8545`.
 
-## 部署合约
+## Deploy Contracts
 
-在新的终端窗口中，依次部署各个模块合约：
+In a new terminal window, deploy each module sequentially:
 
-### 1. 部署 NFTEmojiModule
+### 1. Deploy NFTEmojiModule
 
 ```bash
 npx hardhat ignition deploy ./ignition/modules/NFTEmojiModule.ts --network localNode
 ```
 
-### 2. 部署 GTModule (治理代币)
+### 2. Deploy GTModule (Governance Token)
 
 ```bash
 npx hardhat ignition deploy ./ignition/modules/GTModule.ts --network localNode
 ```
 
-### 3. 部署 BattleModule (战斗系统)
+### 3. Deploy BattleModule (Combat System)
 
 ```bash
 npx hardhat ignition deploy ./ignition/modules/BattleModule.ts --network localNode
 ```
 
-## 合约交互
+## Interact with Contracts
 
-部署完成后，你可以使用 Hardhat 控制台与合约进行交互：
+After deployment, interact with the contracts using the Hardhat console:
 
 ```bash
 npx hardhat console --network localNode
 ```
 
-## 项目结构
+## Project Structure
 
 ```
-├── contracts/               # 智能合约源码
-├── ignition/                # Ignition 部署脚本
-├── scripts/                 # 辅助脚本
-├── test/                    # 测试用例
-├── hardhat.config.ts        # Hardhat 配置
-└── package.json             # 项目依赖
+├── contracts/               # Smart contract source code
+├── ignition/                # Ignition deployment scripts
+├── scripts/                 # Helper scripts
+├── test/                    # Test cases
+├── hardhat.config.ts        # Hardhat configuration
+└── package.json             # Project dependencies
 ```
+
+### Key Features:
+- Emoji-themed NFT collection with unique battle attributes
+- Governance token for community decision-making
+- On-chain battle system with randomized outcomes
+- Fully decentralized game economy
+
+### Technology Stack:
+- Solidity smart contracts
+- Hardhat development environment
+- Ignition deployment framework
+- ERC-721 and ERC-20 token standards
+- Local Ethereum node for testing
